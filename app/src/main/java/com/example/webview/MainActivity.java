@@ -14,7 +14,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
-    private Button _tampilkanButton;
+
     private EditText _urlEditText;
     private WebView _webView1;
 
@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        _tampilkanButton = (Button)findViewById(R.id.tampilkanButton);
         _urlEditText = (EditText)findViewById(R.id.urlEditText);
         _webView1 = (WebView)findViewById(R.id.webView1);
     }
